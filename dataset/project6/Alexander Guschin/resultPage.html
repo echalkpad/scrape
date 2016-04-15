@@ -1,0 +1,993 @@
+
+
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]><html class="ie ie6 lte7 lte8 lte9"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7 lte7 lte8 lte9"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8 lte8 lte9"><![endif]-->
+<!--[if IE 9 ]><html class="ie ie9 lte9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html ><!--<![endif]-->
+
+<head>
+    <link href='//fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:300,400italic,700italic,400,700' rel='stylesheet' type='text/css'> 
+
+    
+    <link rel="stylesheet" href="/content/v/1fb55cec3f8f/shared/css/font-awesome.min.css">
+
+    
+    
+    <title>Alexander Guschin | Kaggle</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="index, follow" />
+    <link href="/content/v/4e3f994e938b/kaggle/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    
+        <meta name="keywords" content="Kaggle, data science, big analytics, data mining, forecasting, statistics, prediction, bioinformatics, competitions, contests, crowdsourced analytics" />
+            <meta name="description" content="Kaggle is a platform for data prediction competitions. Companies, organizations and researchers post their data and have it scrutinized by the world&#39;s best statisticians." />
+
+            <link rel="stylesheet" href="/content/v/1fc20364f0a7/shared/css/base.less" type="text/css" />
+        <link rel="stylesheet" href="/content/v/e1cd6968c0d2/kaggle/css/kaggle-site.less" type="text/css" />
+            <link rel="stylesheet" type="text/css" href="/content/v/78d95c3354b3/shared/css/profiles.less" />
+            <link rel="stylesheet" type="text/css" href="/content/v/99f445450cde/shared/css/select2.css" />
+            <link rel="stylesheet" type="text/css" href="/content/v/9b46c0b3cd73/shared/css/select-box-it.css" />
+            <link rel="stylesheet" href="/content/v/3596f1e1af08/shared/css/jquery-ui-1.9.2/themes/base/jquery-ui.css" type="text/css" media="all" />
+
+        <script type="text/javascript" src="/content/v/47b68dce8cb6/shared/js/jquery-1.7.2.min.js"></script>
+            <script type="text/javascript" src="/content/v/7846b5904b60/shared/js/jquery-ui-1.9.2.min.js"></script>
+
+    
+        <script type="text/javascript" src="/content/v/a60ecf3c5c7d/shared/js/kaggle.min.js"></script>
+        <script type="text/javascript">
+            
+            Kaggle.Current.siteId = 1;
+                    </script>
+
+    
+    <!--[if (gte IE 6)&(lte IE 8)]>
+        <script type="text/javascript" src="/content/v/f1f17fea7cee/shared/js/ie/selectivizr.min.js"></script>
+    <![endif]-->
+
+    
+            <script type="text/javascript" src="/content/v/c82f0d63bdea/shared/js/jquery.timeago-0.11.4.min.js"></script>
+                <script type="text/javascript" src="/content/v/fc318f487a09/shared/js/jquery.textext-1.3.1.min.js"></script>
+                <script type="text/javascript" src="/content/v/6b6c6918abbf/shared/js/select2.min.js"></script>
+                        <script type="text/javascript" src="/content/v/6b97155dd807/shared/js/knockout-3.0.0.min.js"></script>
+            <script type="text/javascript" src="/content/v/f8f7a381bcc1/shared/js/knockout.mapping-2.4.1.min.js"></script>
+            <script type="text/javascript" src="/content/v/320f7a96141a/shared/js/kaggle.knockout.min.js"></script>
+            <script type="text/javascript" src="/content/v/1f1cb97e229a/shared/js/kaggle.knockout.mapping.js"></script>
+            <script type="text/javascript" src="/content/v/f82bc37cd6be/shared/js/kaggle.model.js"></script>
+                    
+                                    <script type="text/javascript" src="/content/v/98e8bfbbf29e/shared/js/kaggle.message.js"></script>
+                            <script src="/content/v/39ad91f8eb4d/shared/js/select-box-it.js" type="text/javascript"></script>
+                            
+                    <link rel="apple-touch-icon" href="/content/v/1e4cdaa83f46/kaggle/img/apple-touch-icon.png" />
+
+
+    
+    <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    
+    
+
+</head>
+<body class="logged-out    kaggle">
+    <div id="watermark1" class=""></div>
+    <div id="watermark2" class=""></div>
+    <div id="wrap"><!-- needed for sticky footer -->
+
+
+<div id="menu-open-overlay"></div>
+
+<div id="header2" class="">
+    <div id="header2-inside" class=>
+        <a id="logo" href="/"><img alt="Kaggle" height="86" src="/content/v/9da25a3f126b/kaggle/img/site-logo.png" width="240" /></a>
+
+            <ul id="header-ul">
+                <li>
+  <a href="/solutions/competitions">Host</a>
+</li>
+<li>
+  <a href="/competitions">Competitions</a>
+</li>
+<li>
+  <a href="/datasets">Datasets</a>
+</li>
+<li>
+  <a href="/scripts">Scripts</a>
+</li>
+<li>
+  <a href="/jobs">Jobs</a>
+</li>
+<li>
+<a href="">Community &#9662;</a>
+<ul>
+  <li><a href='/users'>User Rankings</a></li>
+  <li><a href='/forums'>Forum</a></li>
+  <li><a href="http://blog.kaggle.com" target="_blank">Blog</a></li>
+  <li><a href='/Wiki'>Wiki</a></li>
+</ul>
+</li><!-- <script>
+  $(function(){
+    if (!$('body.logged-in').length) {
+      $('a.logged-in-only').hide().parent().next().find('a').css('padding-top','10px');
+    }
+  });
+</script> -->
+            </ul>
+
+        <script>
+            jQuery(function () {
+                jQuery('#header-ul li:has(ul) > a').click(function (e) {
+                    e.preventDefault();
+
+                    jQuery('#header-ul li').not(jQuery(this).parent()).find('ul').removeClass('open');
+                    jQuery(this).parent().find('ul').toggleClass('open');
+                    jQuery('#menu-open-overlay').show();
+                });
+
+                jQuery('#menu-open-overlay').click(function () {
+                    jQuery('#header-ul ul').removeClass('open');
+                    jQuery('#top-bar-signin').hide();
+                    jQuery(this).hide();
+                });
+
+            });
+        </script>
+
+        <ul id="header-control">
+                <li id="header-signup"><a href="/account/register"><strong><text>Sign up</text></strong></a></li>
+                <li id="header-login">
+                    <a href="/account/login?returnUrl=%2Faguschin%2Fresults" class="login-link">Login</a>
+                </li>
+        </ul>
+            <div id="top-bar-signin">
+                <div id="social-authentication-top">
+    <div id="social-authentication-top-head">
+        Log in<br/>
+        with &mdash;
+    </div>
+    <div id="social-authentication-top-buttons">
+        <a href="/account/authenticate/facebook" class="socialSignIn facebook" title="Log in with Facebook"><img src="/content/v/368347303d78/shared/img/auth-facebook.png" width="36" height="36" alt="Sign up with Facebook" title="Sign up with Facebook" /></a>
+        <a href="/account/authenticate/google" class="socialSignIn google" title="Log in with Google"><img src="/content/v/ace060e512d3/shared/img/auth-google.png" width="36" height="36" alt="Sign up with Google" title="Sign up with Google" /></a>
+        <a href="/account/authenticate/yahoo" class="socialSignIn yahoo" title="Log in with Yahoo"><img src="/content/v/2ff11e08ba40/shared/img/auth-yahoo.png" width="36" height="36" alt="Sign up with Yahoo" title="Sign up with Yahoo" /></a>
+    </div>
+    
+    <script type="text/javascript">
+        var socialSignInLinks = $('a.socialSignIn');
+        socialSignInLinks.attr("href", function(i,v){
+            return v + '?js=1';
+        });
+        socialSignInLinks.click(function(){
+            _gaq.push(['_trackEvent', 'action', 'login', 'top-bar']);
+            return true;
+        });
+    </script>
+</div>
+    
+
+<form action="/account/login" id="signin" method="post"><input id="returnUrl" name="returnUrl" type="hidden" value="https://www.kaggle.com/aguschin/results" /><input data-val="true" data-val-length="The field User name must be a string with a minimum length of 2 and a maximum length of 255." data-val-length-max="255" data-val-length-min="2" data-val-required="The User name field is required." id="UserName" name="UserName" placeholder="Email / username" type="text" value="" /><span class="field-validation-valid" data-valmsg-for="UserName" data-valmsg-replace="true"></span><input data-val="true" data-val-length="The field Password must be a string with a minimum length of 1 and a maximum length of 255." data-val-length-max="255" data-val-length-min="1" data-val-required="The Password field is required." id="Password" name="Password" placeholder="Password" type="password" /><span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>    <div id="remember-me">
+        <input data-val="true" data-val-required="The Remember me? field is required." id="RememberMe" name="RememberMe" type="checkbox" value="true" /><input name="RememberMe" type="hidden" value="false" />            
+        <label for="RememberMe">Remember me?</label>
+    </div>   
+    <input type="submit" value="Login" />
+<input name="__RequestVerificationToken" type="hidden" value="VEm9z2kRemEI7ETqoOLdfYyPI1_cq_0ZFay5-iD3ug7LZ8j-AHw66j8W-RpU-E6cIPygqbZ8ibc-sTGsP-hKeoFm23A1" />    <input id="signinjs" type="hidden" name="JavaScriptEnabled" value="false" />    
+</form>
+<script type="text/javascript">
+    $('#signinjs').attr('value', 'true');
+    $('#signin').submit(function () { _gaq.push(['_trackEvent', 'action', 'login', 'top-bar']); });
+</script>
+
+<div id="forgot-links">        
+    Forgot your <a href="/forgot/username">Username</a> 
+    / 
+    <a href="/forgot/password">Password</a>?
+</div>
+
+            </div>
+            <script>
+                jQuery(function () {
+                    jQuery('.login-link').click(function (e) {
+                        e.preventDefault();
+                        jQuery('#top-bar-signin').toggle();
+                        jQuery('#menu-open-overlay').toggle();
+                        if (jQuery('#top-bar-signin').is(":visible")) {
+                            jQuery('#UserName').focus();
+                        }
+                    });
+                });
+            </script>
+    </div>
+</div>
+
+
+
+
+
+
+
+        
+
+        <!-- header-inside and header -->
+            <div id="main">
+                
+    <div class="kaggle content" >    
+        
+
+<div id="profile2">
+    
+
+<!-- ko with:profile -->
+<div id="profile2-head" data-bind="init: results.load, css: false ? 'kaggle team' : tierName">
+    <div id="profile2-card">
+        <h1 data-bind="text: name, style: { cursor: 'pointer' }, click: gotoUrl">Alexander Guschin</h1>
+        <h3 data-bind="fadeIn: summary.load, with: summary"><span class="viewing" data-bind="text: taglineText"></span></h3>
+
+            <h2 class="profile-verify-note verified-note">Verified account</h2>
+
+        <h4 data-bind="fadeIn: summary.load, with: summary" style="display: none">
+            <a rel="nofollow" title="Read Tweets" data-bind="visible: twitterUrl, attr: { href: twitterUrl, target: '_blank' }"><img src='/content/v/30534fed51d7/shared/img/profile-twitter.png' /></a>
+            <a rel="nofollow" title="View Github Profile" data-bind="visible: githubUrl, attr: { href: githubUrl, target: '_blank' }"><img src='/content/v/364c2bd01277/shared/img/profile-github.png' /></a>
+            <a rel="nofollow" title="View LinkedIn Profile" data-bind="visible: linkedinUrl, attr: { href: linkedinUrl, target: '_blank' }"><img src='/content/v/2a1f12da2f77/shared/img/profile-linkedin.png' /></a>
+            <a rel="nofollow" id="personal-website" title="View Website" data-bind="visible: websiteUrl, text: websiteUrl, attr: { href: websiteUrl, target: '_blank' }"></a>
+        </h4>
+    </div>
+
+    <div id="profile2-stats" data-bind="visible: true" style="display: none">
+        <div id="profile2-ranking">
+            <h3 id="tier-info">
+                <span id="tier-text" data-bind="text: false ? 'kaggle team' : tierName"></span>
+                <a class="tier-popup" href="#">?</a>
+            </h3>
+
+            <!-- ko if:ranking -->
+                <!-- ko if: ranking() != highestRanking() -->
+                    <div id="ranking-highest">
+                        <h6>Highest&dagger;</h6>
+                        <h4 data-bind="text: highestRankingText"></h4>              
+                    </div>
+                <!-- /ko -->
+            
+                <div id="ranking-current">
+                    <h6 data-bind="if: ranking() != highestRanking()">Current&dagger;</h6>
+                    <h4 data-bind="text: rankingText"></h4>
+                    <h5 data-bind="with: $root.global().load">/<span data-bind="    text: playersText"></span></h5>
+                </div>
+            <!-- /ko -->
+
+            <h6>
+                <span data-bind="if: points">
+                    <span data-bind="text: pointsText"></span> points
+                </span><br/>
+                Joined <span data-bind="timeago: registered"></span> <br/>
+                <!-- ko if:ranking -->
+                    <span style="color: white; font-size: 0.77em;">&dagger;Ranking method changed 13 May 2015 <a style="color: white;" href="http://blog.kaggle.com/2015/05/13/improved-kaggle-rankings/">(?)</a></span>
+                <!-- /ko -->
+            </h6>
+
+        </div>
+        
+        <img id="profile2-avatar" width="240" height="240" src="/content/v/8a8a6d6325c5/shared/img/clear.png" alt="" title="" data-bind="attr: { src: gravatarUrl(240, 240) }, click: gotoUrl" />
+    </div>
+</div>
+<!-- /ko -->
+
+
+    <ul id="profile2-tabs">
+        <li data-bind="css: { selected: tab.showing('overview') }">
+            <a href="" data-bind="click: tab.show('overview', $element), attr: { href: profile().url }">Profile</a>
+        </li>
+        <li data-bind="css: { selected: tab.showing('results') }">
+            <a href="" data-bind="click: tab.show('results', $element), attr: { href: profile().resultsUrl }">Results</a>
+        </li>
+        <li data-bind="css: { selected: tab.showing('scripts') }">
+            <a href="" data-bind="click: function() { tab.show('scripts', $element)(); setScriptsSelectBoxIt(); }, attr: { href: profile().scriptsUrl }">Scripts</a>
+        </li>
+        <li data-bind="css: { selected: tab.showing('forum') }">
+            <a href="" data-bind="click: tab.show('forum', $element), attr: { href: profile().forumUrl }">Forum</a>
+        </li>
+        <li data-bind="visible: canShowContact, css: { selected: tab.showing('contact') }">
+            <a href="" data-bind="click: tab.show('contact', $element), attr: { href: profile().messageUrl }">Contact</a>
+        </li>
+        <li data-bind="visible: canShowPrivate, css: { selected: tab.showing('account') }">
+            <a href="" data-bind="click: tab.show('account', $element), attr: { href: profile().accountUrl }">Account</a>
+        </li>
+        <li data-bind="visible: canShowPrivate, css: { selected: tab.showing('activity') }">
+            <a href="" data-bind="click: tab.show('activity', $element), attr: { href: profile().activityUrl }">Activity</a>
+        </li>
+    </ul>
+
+    <div id="profile2-content" data-bind="visible: true" style="display: none">
+        
+
+        
+
+        <div id="profile2-content-contact" data-bind="visible: tab.showing('contact'), if: tab.showing('contact')">
+<div data-bind="with: message">
+    <form method="POST" action="#" class="profile-message" data-bind="submit: send">
+        <div class="profile-contact-bar _buttons">
+            <p>You may send this user an introductory email (they will see your email address).<br/>
+               Please note that this introduction message is logged for auditing purposes.</p>
+        </div>
+
+        <div class="profile-contact-div">
+            <div>
+                <label>To</label>
+                <span class="field">Alexander Guschin <span class="secret">&lt;confidential&gt;</span></span>
+            </div>
+            <div>
+                <label>From</label>
+                <span class="field"> &lt;&gt;</span>
+            </div>
+            <div data-bind="visible: showView" style="display:none">
+                <label>Subject</label>
+                <span class="field profile-message-subject" data-bind="text: subject"></span>
+            </div>
+            <pre class="profile-message-body" data-bind="visible: showView, text: body" style="display:none"></pre>
+
+            <fieldset data-bind="visible: showEdit">
+                <div>
+                    <label>Subject:</label>
+                    <input id="profile-contact-subject" type="text" size="80" name="subject" data-bind="value: subject" />
+                </div>
+                <div>
+                    <textarea id="profile-contact-body"cols="80" rows="20" name="body" title="Enter your message body here" data-bind="value: body"></textarea>
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="profile-contact-bar _buttons" data-bind="visible: edit">
+            <input type="submit" name="submit" value="Send Email" />
+            <input type="button" name="cancel" id="cancel" value="Discard" data-bind="click: $root.cancelMessage" />
+        </div>
+    </form>
+</div>
+        </div>
+
+        <div id="profile2-content-forum" data-bind="visible: tab.showing('forum'), if: tab.showing('forum')">
+            <div data-bind="with: profile">
+    <div id="forum-overview" data-bind="with: forumSummary.load, css: { 'x-spinner-test': forumSummary.loading }">
+        <div data-bind="fadeIn: totalPosts">
+            <dl>
+                <dt>Posts</dt>
+                <dd id="posts-count" data-bind="text: totalPosts"></dd>
+            </dl>
+            <dl>
+                <dt>Forum Votes</dt>
+                <dd>
+                    <span data-bind="text: votesReceived"></span> received /
+                    <span data-bind="text: votesGiven"></span> given
+                </dd>
+            </dl>
+            <dl data-bind="visible: mostActiveForum, with: mostActiveForum">
+                <dt>Most active in</dt>
+                <dd>
+                    <span data-bind="text: name"></span>
+                    (<span data-bind="text: $parent.mostActiveCount"></span>)
+                </dd>
+            </dl>
+        </div>
+        <div id="profile-noposts" data-bind="fadeIn: !totalPosts()">
+            <span data-bind="text: $parent.name"></span> has not posted to the forums yet.
+        </div>
+    </div>
+
+    <div id="profile-forum-posts" data-bind="if: forumSummary() && forumSummary().totalPosts, fadeIn: forumSummary.loaded">
+        <h3>Recent Posts</h3>
+        
+
+        <ul data-bind="init: forumActivity.load, foreach: forumActivity, css: { 'x-spinner-test': forumActivity.loading }">
+            <li>
+                <h4 data-bind="if: forumTopic">
+                    <a data-bind="text: forumTopic().name, attr: { href: redirectUrl }"></a>
+                </h4>
+                <div data-bind="with: forumTopic">
+                    <h5 data-bind="with: forum.load, fadeIn: forum.loaded">in
+                        <a data-bind="text: name, attr: { href: redirectUrl }"></a>
+                    </h5>
+                </div>
+                <div class="post-content" data-bind="html: messageHtml"></div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+        </div>
+
+        <div id="profile2-content-scripts" data-bind="visible: tab.showing('scripts'), if: tab.showing('scripts')">
+                <div id="profile-scripts-container-div" data-bind="with: allScriptsViewModel">
+                    
+
+<div class="toolbar-section">
+    <div class="dropdown-section">
+        <select id="sort" name="sort" data-bind="options: availableSortingOrders, optionsText: 'name', optionsValue: 'value', value: listFilters.sortBy"></select>
+    </div>
+
+    <div class="dropdown-section">
+        <select id="language-filter" name="language-filter" data-bind="options: availableLanguagesForFiltering, value: listFilters.language"></select>
+    </div>
+
+        <div class="dropdown-section">
+            <select id="output-filter" name="output-filter" data-bind="foreach: availableOutputTypesForFiltering, value: listFilters.outputType">
+                <option data-bind="text: name, attr: { value: name, 'data-icon': $parent.getOutputTypeClass(id()) }"></option>
+            </select>
+        </div>
+
+        <div class="dropdown-section">
+            <select id="competition-filter" name="competition-filter" data-bind="foreach: availableProjectsForFiltering, value: listFilters.scriptProject">
+                <option data-bind="text: title, attr: { value: slug }"></option>
+            </select>
+        </div>
+
+    <div class="toggle-section">
+        <div data-bind="if:listMetadata.userHasScriptsInThisList"><button data-bind="css: myScriptButtonCssClass, click: toggleShowSelfScripts">My Scripts</button></div>
+    </div>
+
+
+</div>
+<div data-bind="css: scriptListCssClass">
+    <div class="loader" data-bind="if: isRefreshingTable"><span class="fa fa-refresh fa-spin"></span></div>
+
+    <div data-bind="foreach: scriptsList">
+        
+<div class="script-item">
+    <div class="script-item-avatar-section">
+            <a data-bind="attr: { href: scriptUrl }"><img height="60px" width="60px" data-bind="attr: {src: projectThumbnailUrl}" /></a>
+    </div>
+
+    <div class="script-item-content-section">
+        <h1><a data-bind="attr: { href: scriptUrl }, text: title, style: { textDecoration: isHidden() ? 'line-through' : 'none' }"></a></h1>
+        <p style="white-space: nowrap;">
+            last run <span data-bind="timeago: lastRunTime()"></span> by <a data-bind="attr: { href: author.profileUrl }, text: author.displayName" class="hover-fix"></a>
+in <a data-bind="attr: { href: projectScriptsUrl }, text: projectName" class="hover-fix"></a> <br />
+            <span data-bind="if: totalComments() > 0"><a data-bind="attr: { href: scriptUrl() + '/discussion' }" class="hover-fix"><span data-bind="text: totalComments"></span> comments</a> · </span>
+            <span data-bind="if: totalForks() > 0"><span data-bind="text: totalForks"></span> forks · </span>
+            <span data-bind="text: totalViews"></span> views  ·  <span data-bind="text: languageName"></span>
+                <span data-bind="if: outputTypes().length > 0">
+                    ·
+                    <span data-bind="foreach: outputTypes">
+                        <span data-bind="if: extension() == 'Notebook'"><span class="fa fa-globe" title="This script outputs a notebook"></span></span>
+                        <span data-bind="if: extension() == 'Visualization'"><span class="fa fa-bar-chart" data-bind="attr: { title: 'This script outputs ' + count() + ' visualization(s)' }"></span></span>
+                        <span data-bind="if: extension() == 'Data'"><span class="fa fa-table" data-bind="attr: { title: 'This script outputs ' + count() + ' data file(s)' }"></span></span>
+                        <span data-bind="if: extension() == 'Other'"><span class="fa fa-file-text-o" data-bind="attr: { title: 'This script outputs ' + count() + ' other types of file(s)' }"></span></span>
+                    </span>
+                </span>
+            <span data-bind="if: forkParentScriptVersionId()!=0"> · <a data-bind="attr: { href: '/sv/' + forkParentScriptVersionId() }" class="hover-fix">Forked Script</a></span>
+            <span data-bind="if: isFork">
+                <span data-bind="attr: { title: forkDiffLinesInserted() + ' lines inserted / ' + forkDiffLinesDeleted() + ' lines deleted / ' + forkDiffLinesChanged() + ' lines changed from parent script' }">
+                    ·
+                    <a data-bind="attr: { href: forkDiffUrl }" class="code-diff-main">
+                        <span data-bind="text: '+' + forkDiffLinesInserted()" class="code-diff inserts"></span> /
+                        <span data-bind="text: '-' + forkDiffLinesDeleted()" class="code-diff deletes"></span> /
+                        <span data-bind="text: '~' + forkDiffLinesChanged()" class="code-diff changes"></span>
+                    </a>
+                </span>
+            </span>
+        </p>
+
+    </div>
+
+    <div class="script-item-votes-section" style="width: auto; margin-top: 29px; padding: 0; padding-left: 6px;">
+        <h1 style="font-size: 24px;">
+            <span class="fa fa-arrow-up list-vote-icon"
+                  data-bind="click: $parent.voteButtonClicked, css: (currentUserHasVotedForThisScript() ? 'voted-icon' : ''), attr: {title: (currentUserHasVotedForThisScript() ? 'remove upvote' : 'upvote this script')}"></span>
+        </h1>
+    </div>
+
+
+    <div class="script-item-votes-section" style="width: auto; margin-top: 30px; padding:0; text-align: right;">
+        <h1 style="font-size: 24px;"><span data-bind="text: totalVotes"></span></h1>
+    </div>
+</div>
+<div class="break-line"></div>
+
+    </div>
+
+    <div data-bind="if: isLoadingMoreRows" style="margin-left: 48%;"><span class="fa fa-spinner fa-spin" style="font-size: 20px;"></span></div>
+    <div data-bind="if: showingNoMoreScriptsMessage" style="margin-left: 30%;">
+        <span class="no-more-scripts-message">No more scripts to show</span>
+        <span class="no-more-scripts-message">¯\_(ツ)_/¯</span>
+        <span class="no-more-scripts-message">Why not write one?</span>
+    </div>
+</div>
+
+<script src="/content/v/ba79dd5c7b1f/shared/js/kaggle.scripts.all.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(function() {
+        $("select").selectBoxIt({ autoWidth: false });
+    });
+
+    var allScriptsViewModel = new Kaggle.Scripts.ShowAllScriptsViewModel(
+        Kaggle.Mapping.fromJS({"totalScripts":26897,"scriptLanguageNames":["SQLite","RMarkdown","Python","R","Julia"],"userHasScriptsInThisList":false,"projects":[{"slug":"2013-american-community-survey","title":"2013 American Community Survey","newScriptUrl":"/census/2013-american-community-survey/scripts/new"},{"slug":"2015-notebook-ux-survey","title":"2015 Notebook UX Survey","newScriptUrl":"/jupyter/2015-notebook-ux-survey/scripts/new"},{"slug":"amazon-fine-food-reviews","title":"Amazon Fine Food Reviews","newScriptUrl":"/snap/amazon-fine-food-reviews/scripts/new"},{"slug":"first-gop-debate-twitter-sentiment","title":"First GOP Debate Twitter Sentiment","newScriptUrl":"/crowdflower/first-gop-debate-twitter-sentiment/scripts/new"},{"slug":"health-insurance-marketplace","title":"Health Insurance Marketplace","newScriptUrl":"/hhsgov/health-insurance-marketplace/scripts/new"},{"slug":"hillary-clinton-emails","title":"Hillary Clinton\u0027s Emails","newScriptUrl":"/kaggle/hillary-clinton-emails/scripts/new"},{"slug":"iris","title":"Iris","newScriptUrl":"/uciml/iris/scripts/new"},{"slug":"reddit-comments-may-2015","title":"May 2015 Reddit Comments","newScriptUrl":"/reddit/reddit-comments-may-2015/scripts/new"},{"slug":"meta-kaggle","title":"Meta Kaggle","newScriptUrl":"/kaggle/meta-kaggle/scripts/new"},{"slug":"nips-2015-papers","title":"NIPS 2015 Papers","newScriptUrl":"/benhamner/nips-2015-papers/scripts/new"},{"slug":"climate-data-from-ocean-ships","title":"Ocean Ship Logbooks (1750-1850)","newScriptUrl":"/kaggle/climate-data-from-ocean-ships/scripts/new"},{"slug":"sf-salaries","title":"SF Salaries","newScriptUrl":"/kaggle/sf-salaries/scripts/new"},{"slug":"twitter-airline-sentiment","title":"Twitter US Airline Sentiment","newScriptUrl":"/crowdflower/twitter-airline-sentiment/scripts/new"},{"slug":"us-baby-names","title":"US Baby Names","newScriptUrl":"/kaggle/us-baby-names/scripts/new"},{"slug":"college-scorecard","title":"US Dept of Education: College Scorecard","newScriptUrl":"/kaggle/college-scorecard/scripts/new"},{"slug":"world-development-indicators","title":"World Development Indicators","newScriptUrl":"/worldbank/world-development-indicators/scripts/new"},{"slug":"world-food-facts","title":"World Food Facts","newScriptUrl":"/openfoodfacts/world-food-facts/scripts/new"}],"outputTypes":[{"id":3,"name":"Notebook","sort":1},{"id":1,"name":"Visualization","sort":2},{"id":2,"name":"Data","sort":3},{"id":4,"name":"Other","sort":4}],"isProfile":true,"baseUrl":"/aguschin","newScriptUrl":null}),
+        Kaggle.Mapping.fromJS({"sortBy":"votes","language":null,"outputType":null,"scriptProject":null,"userId":200451,"removeJunkScripts":false,"forkParentScriptId":null}),
+        Kaggle.Mapping.fromJS([]),
+        0,
+        -1, -1,
+        {"deleteVote":"/Scripts/ScriptDeleteVote","postVote":"/scripts/vote","loginAndReturn":"/account/login?returnUrl=%2Faguschin%2Fresults","newScript":null,"newNotebook":null,"competitionImage":null,"competitionUrl":null,"forumUrl":null,"leaderboardUrl":null});
+
+
+    $(window).scroll(function() {
+        if ($(window).scrollTop() + $(window).height() >= 0.9 * $(document).height()) {
+            allScriptsViewModel.loadMoreRows();
+        }
+    });
+
+    $(document).ready(function() {
+        if (window.onpageshow || window.onpageshow === null) {
+            window.addEventListener("pageshow", function() {
+                allScriptsViewModel.refreshTable();
+            });
+        } else {
+            allScriptsViewModel.refreshTable();
+        }
+    });
+</script>
+
+
+                </div>
+        </div>
+
+        <div id="profile2-content-results" data-bind="visible: tab.showing('results'), if: tab.showing('results')">
+            <div data-bind="with: profile" class="profile-inside" id="profile-results">
+    <div data-bind="init: fullResults.load, if: fullResults.loaded, css: { 'x-spinner-test': fullResults.loading }">
+        <table class="profile-comp-list" data-bind="foreach: fullResults">
+            <tr class="profile-comp-box" data-bind="css: { current: !competition().isFinal(), past: competition().isFinal }">
+                <td>
+                    <a data-bind="attr: { href: competition().url(), title: competition().title }">
+                        <img height="76" width="76" alt="" data-bind="attr: { src: competition().thumbnail() }"/>
+                    </a>
+                </td>
+                
+                <td class="comp-details">
+                    <h4>
+                        <a data-bind="attr: { href: competition().url() }"><span data-bind="    text: competition().title"></span></a>
+                        <img class="results-comp-icon" src='/content/v/2cdd9bcbf309/shared/img/comp-lock.png' data-bind="visible: competition().isRestricted, attr: { title: competition().isPrivate() ? 'Private Competition' : competition().isMasters() ? 'Masters Competition' : null }"/>
+                    </h4>
+                    <span data-bind="text: submissionText"></span> in team <a data-bind="text: name, attr: { href: url }"></a>
+                </td>
+
+                <td class="comp-time">
+                    <h5 data-bind="text: competition().isActive() ? 'Current' : competition().isFinal() ? 'Finished' : 'Closed - Validating Final Results'"></h5>
+                    <strong data-bind="text: rankText"></strong>/<span data-bind="text: teamCount"></span>
+                    <h6 data-bind="visible: competition().isActive, if: competition().isActive">
+                        Ending <span data-bind="timeago: competition().deadline"></span>
+                    </h6>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+        </div>
+
+        <div id="profile2-content-overview" class="profile2-modular-page" data-bind="visible: tab.showing('overview'), if: tab.showing('overview')">
+            <div id="start-editing" style="display: none" data-bind="visible: canShowPrivate">
+    <button data-bind="click: $root.editProfile">Edit Profile</button>
+</div>
+
+<div class="profile2-col-section" data-bind="visible: $root.showResults">
+    <ul id="profile2-comps" data-bind="with: profile">
+        <!-- ko foreach: $root.visibleResults -->
+        <li data-bind="with: competition">
+            <a data-bind="attr: { href: url() }">
+                <img class="comp-image" src="/content/v/8a8a6d6325c5/shared/img/clear.png" height="76" width="76" data-bind="attr: { src: thumbnail(), title: title }" />
+                <h4 data-bind="text: $parent.rankSummary, css: $parent.css"></h4>
+                <h5 data-bind="text: $parent.rankText() + '/' + $parent.teamCount()"></h5>
+            </a>
+        </li>
+        <!-- /ko -->
+
+        <li class="total" data-bind="visible: results().length > 9, click: $root.tab.show('results')">
+            <a class="total-number"  data-bind="text: results().length"></a>
+            <h5>Competitions</h5>
+        </li>
+    </ul>
+</div>
+
+
+<div class="profile2-col-section profile2-2cols" data-bind="with: profile">
+    <div class="col-1">
+        <div id="profile-bio" class="viewing">
+            
+            <h2>Bio</h2>
+
+
+            <div data-bind="with: summary, visible: summary.loaded, css: { 'x-spinner-test': summary.loading }">
+                <p class="_prewrap" data-bind="visible: bio, if: bio"><span data-bind="text: bio"></span></p>
+
+                
+
+                <div class="profile2-noinfo" data-bind="visible: !bio()">
+                    User hasn't entered any bio information.
+                </div>
+
+                <dl id="profile2-bio-vitals" data-bind="visible: location">
+                    <dt>Location</dt>
+                    <dd data-bind="text: location"></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-2">
+        <h2>Scripts</h2>
+        <div data-bind="foreach: initialScriptsList">
+            
+<div class="script-item">
+    <div class="script-item-avatar-section">
+            <a data-bind="attr: { href: scriptUrl }"><img height="60px" width="60px" data-bind="attr: {src: projectThumbnailUrl}" /></a>
+    </div>
+
+    <div class="script-item-content-section">
+        <h1><a data-bind="attr: { href: scriptUrl }, text: title, style: { textDecoration: isHidden() ? 'line-through' : 'none' }"></a></h1>
+        <p style="white-space: nowrap;">
+            last run <span data-bind="timeago: lastRunTime()"></span> by <a data-bind="attr: { href: author.profileUrl }, text: author.displayName" class="hover-fix"></a>
+in <a data-bind="attr: { href: projectScriptsUrl }, text: projectName" class="hover-fix"></a> <br />
+            <span data-bind="if: totalComments() > 0"><a data-bind="attr: { href: scriptUrl() + '/discussion' }" class="hover-fix"><span data-bind="text: totalComments"></span> comments</a> · </span>
+            <span data-bind="if: totalForks() > 0"><span data-bind="text: totalForks"></span> forks · </span>
+            <span data-bind="text: totalViews"></span> views  ·  <span data-bind="text: languageName"></span>
+                <span data-bind="if: outputTypes().length > 0">
+                    ·
+                    <span data-bind="foreach: outputTypes">
+                        <span data-bind="if: extension() == 'Notebook'"><span class="fa fa-globe" title="This script outputs a notebook"></span></span>
+                        <span data-bind="if: extension() == 'Visualization'"><span class="fa fa-bar-chart" data-bind="attr: { title: 'This script outputs ' + count() + ' visualization(s)' }"></span></span>
+                        <span data-bind="if: extension() == 'Data'"><span class="fa fa-table" data-bind="attr: { title: 'This script outputs ' + count() + ' data file(s)' }"></span></span>
+                        <span data-bind="if: extension() == 'Other'"><span class="fa fa-file-text-o" data-bind="attr: { title: 'This script outputs ' + count() + ' other types of file(s)' }"></span></span>
+                    </span>
+                </span>
+            <span data-bind="if: forkParentScriptVersionId()!=0"> · <a data-bind="attr: { href: '/sv/' + forkParentScriptVersionId() }" class="hover-fix">Forked Script</a></span>
+            <span data-bind="if: isFork">
+                <span data-bind="attr: { title: forkDiffLinesInserted() + ' lines inserted / ' + forkDiffLinesDeleted() + ' lines deleted / ' + forkDiffLinesChanged() + ' lines changed from parent script' }">
+                    ·
+                    <a data-bind="attr: { href: forkDiffUrl }" class="code-diff-main">
+                        <span data-bind="text: '+' + forkDiffLinesInserted()" class="code-diff inserts"></span> /
+                        <span data-bind="text: '-' + forkDiffLinesDeleted()" class="code-diff deletes"></span> /
+                        <span data-bind="text: '~' + forkDiffLinesChanged()" class="code-diff changes"></span>
+                    </a>
+                </span>
+            </span>
+        </p>
+
+    </div>
+
+    <div class="script-item-votes-section" style="width: auto; margin-top: 29px; padding: 0; padding-left: 6px;">
+        <h1 style="font-size: 24px;">
+            <span class="fa fa-arrow-up list-vote-icon"
+                  data-bind="click: $parent.voteButtonClicked, css: (currentUserHasVotedForThisScript() ? 'voted-icon' : ''), attr: {title: (currentUserHasVotedForThisScript() ? 'remove upvote' : 'upvote this script')}"></span>
+        </h1>
+    </div>
+
+
+    <div class="script-item-votes-section" style="width: auto; margin-top: 30px; padding:0; text-align: right;">
+        <h1 style="font-size: 24px;"><span data-bind="text: totalVotes"></span></h1>
+    </div>
+</div>
+<div class="break-line"></div>
+
+        </div>
+        
+            <p>Alexander Guschin has no <a href="https://www.kaggle.com/scripts">scripts</a> yet</p>
+            <pre>
+ _.........._
+| |run.py  | |
+| |        | |
+| |________| |
+|   ______   |
+|  |    | |  |
+|__|____|_|__|
+            </pre>
+        
+    </div>
+</div>
+
+<div class="profile2-col-section profile2-2cols" data-bind="with: profile">
+    <div class="col-1">
+        <h2 data-bind="init: achievements.load">Achievements</h2>
+
+        <div data-bind="visible: achievements.loaded() && achievements()[0], css: { 'x-spinner-test-2': achievements.loading }">
+            <ul id="profile2-achievements" data-bind="foreach: achievements">
+                <li data-bind="css: css">
+                    <h3 data-bind="text: name"></h3>
+                    <h4 data-bind="visible: multiple">&times;<span data-bind="text: count"></span></h4>
+                    <div class="hover-over" data-bind="visible: label">
+                        <h5 data-bind="text: label"></h5>
+                        <h6 data-bind="visible: total, if: total">Awarded to <span data-bind="text: total"></span> users</h6>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="profile2-noinfo" data-bind="visible: achievements.loaded() && !achievements()[0]">
+            User hasn't earned any achievements yet.
+        </div>
+
+    </div>
+
+    <div class="col-2">
+
+        <div class="info-section" data-bind="with: summary.load">
+            <h2>Skills</h2>
+            <ul id="profile2-linkedin-tags" data-bind="foreach: skills">
+                <li>
+                    <span data-bind="text: $data"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+<div id="tiers-info-popup" style="display:none;">
+    <ul>
+        <li id="tier-info-master">
+            <img src='/content/v/116482c865f4/shared/img/tiers/tier-big-master.png' alt="Master" />
+            <h1>Master</h1>
+            <p>
+                A Kaggle competitor with consistent and stellar competition results.
+            </p>
+        </li>
+        <li id="tier-info-kaggler">
+            <img src='/content/v/fdf3666f8410/shared/img/tiers/tier-big-kaggler.png' alt="Kaggler" />
+            <h1>Kaggler</h1>
+            <p>
+                A Kaggle user actively participating in competitions.
+            </p>
+        </li>
+        <li id="tier-info-novice">
+            <img src='/content/v/a781eb6d45f0/shared/img/tiers/tier-big-novice.png' alt="Novice" />
+            <h1>Novice</h1>
+            <p>
+                A Kaggle user just getting started with competitions.
+            </p>
+        </li>
+    </ul>
+    
+    <p style="text-align:center; margin:2em 0 1em; font-size:15px;">
+        <a href="https://www.kaggle.com/wiki/UserRankingAndTierSystem" target="_blank">More info on our user ranking &amp; tier system &raquo;</a>
+    </p>
+    
+    <script type="text/javascript">
+        jQuery(function($) {
+            $('body').on('click', 'a.tier-popup', function() {
+                $('#tiers-info-popup').dialog({
+                    'modal':true,
+                    'width':640,
+                    'title':"User Tiers",
+                    'resizable':false,
+                    'dialogClass': 'nicedialog'
+                });
+            });
+        });
+    </script>
+</div>
+
+<script type="text/javascript">
+    // Page View Model for the user Profiles page
+    (function ($) {
+        // Requires: jQuery
+        // Requires: Knockout
+        // Requires: kaggle.js
+        // Requires: kaggle.knockout
+
+        Kaggle.Page.ViewProfile = function (proto) {
+            // Current User
+            this.currentUserId = proto.currentUserId;
+            this.currentUser = ko.observable(
+                Kaggle.Model.ProfileCache.set(proto.currentUser)
+            );
+
+            // Core Profile
+            this.profileId = proto.profileId;
+            this.profile = ko.observable(
+                Kaggle.Model.ProfileCache.set(proto.profile)
+            );
+
+            // User Birthday (temporary until a specific private entity is created)
+            this.profile().birthday = ko.observable(proto.birthday);
+
+            this.profile().initialScriptsList = Kaggle.Mapping.fromJS([]);
+
+            // Global Kaggle Statistics
+            this.global = ko.observable(
+                Kaggle.Model.SiteStatisticsCache.get("global")
+            );
+
+            // User Message
+            this.message = ko.observable(proto.message);
+
+            // Rate brackets
+            this.rates = ko.observableArray([ 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600]);
+            this.rateText = function (rate) {
+                return "$" + rate;
+            };
+            
+            // Hour brackets
+            this.hours = ko.observableArray([ 1, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50]);
+            
+            // Page Layout
+
+            this.tab = Kaggle.Page.tabs(proto.tab || 'overview');
+
+            this.canSendMessageToProfileUser = proto.canSendMessageToProfileUser;
+
+            this.canShowPrivate = ko.computed(function () {
+                return this.profile().isSelf() || this.currentUser().isSiteAdmin();
+            }, this);
+
+            this.canShowContact = ko.computed(function () {
+                return this.canSendMessageToProfileUser;
+            }, this);
+
+            // NOTE: Show the bar by default to prioritise flicker reduction for active players?
+            this.showResults = ko.computed(function () {              
+                var profile = this.profile();
+                if (!profile) return true;
+                if (!profile.results.loaded()) return true;
+                return profile.results().length ? true : false;
+            }, this);
+            
+            this.visibleResults = ko.computed(function () {
+                var profile = this.profile();
+                if (!profile) return null;
+                if (!profile.results.loaded()) return null;
+                var results = profile.results();
+                if (!results) return null;
+                if (results.length <= 9) return results;
+                return results.slice(0,8);
+            }, this);
+            
+            // Page Events
+            
+            this.editProfile = function () {
+                window.location = this.profile().editUrl();
+            }.bind(this);
+            
+            this.showAccount = function () {
+                window.location = this.profile().accountUrl();
+            }.bind(this);
+
+            this.setScriptsSelectBoxIt = function() {
+                allScriptsViewModel.replaceState();
+                $("select").selectBoxIt({ autoWidth: false });
+            }.bind(this);
+
+            this.cancelMessage = function () {
+                this.tab('overview');
+                this.message().reset();
+            }.bind(this);
+        };
+    })(jQuery);
+</script>
+
+<script type="text/javascript">
+    var pageViewModel = new Kaggle.Page.ViewProfile({
+        tab: 'results',
+        currentUserId: 0,
+        currentUser: {
+  "id": 0,
+  "name": null,
+  "slug": "0",
+  "tier": 0,
+  "gravatar": "d41d8cd98f00b204e9800998ecf8427e",
+  "registered": 1455756946582,
+  "points": null,
+  "pointsText": "none",
+  "ranking": null,
+  "rankingText": "none",
+  "highestRanking": null,
+  "highestRankingText": "none",
+  "url": "/users/0/0"
+},
+        profileId: 200451,
+        profile: {
+  "id": 200451,
+  "name": "Alexander Guschin",
+  "slug": "aguschin",
+  "tier": 10,
+  "gravatar": "839b483a000b8389964d67e1135a3987",
+  "registered": 1400918544290,
+  "points": 141896.296875,
+  "pointsText": "141,896.3",
+  "ranking": 5,
+  "rankingText": "5th",
+  "highestRanking": 5,
+  "highestRankingText": "5th",
+  "url": "/aguschin",
+  "canSendUserMessages": true
+},
+        birthday: "",
+        canSendMessageToProfileUser: false,
+        message: new Kaggle.Message({
+            sendUrl: "/knockout/user-messages/POST",
+            discardUrl: "/aguschin",
+            from: 0,
+            to: 200451
+        })
+    });
+</script>
+    <script>
+        allScriptsViewModel.listMetadata.userHasScriptsInThisList(false); 
+        pageViewModel.allScriptsViewModel = allScriptsViewModel;
+    </script>
+<script>
+    ko.applyBindings(pageViewModel);
+</script>
+<script src="/content/v/d664cbe3fc49/shared/js/kaggle.scripts.helpers.js" type="text/javascript"></script>
+
+    </div>
+
+         
+
+
+
+
+            </div>
+    </div> <!-- wrap -->
+    
+        <div id="footer">
+            <div id="footer-inside">
+                <div id="footer-social">
+                        <div id="social-links">
+            <a class="twitter" href="http://www.twitter.com/kaggle" title="Follow Kaggle on Twitter"></a>     
+                    <a class="facebook" href="http://www.facebook.com/kaggle" title="Follow Kaggle on Facebook"></a>           
+                    <a class="linkedin" href="http://www.linkedin.com/companies/kaggle" title="Follow Kaggle on LinkedIn"></a>        
+    </div><!-- social-links -->
+
+                </div>
+                <div id="footer-copyright">
+                    
+
+
+&copy; 2016 Kaggle Inc                </div>
+                <div id="footer-links">
+                    <a href="/about">About</a>
+<a href="/team">Our Team</a>
+<a href="/careers">Careers</a>
+<a href="/terms">Terms</a>
+<a href="/privacy">Privacy</a> 
+<!--<a href="/Home/ContactPress">Press</a>-->
+<a href="/Home/contact">Contact/Support</a>
+                </div> <!-- footer-links -->
+            </div> <!-- footer-inside -->
+        </div> <!--footer-->
+
+        
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-12629138-1']);
+            _gaq.push(['_trackPageview']);
+            _gaq.push(['_trackPageLoadTime']);
+            _gaq.push(['_setCustomVar', 1, 'usertype', 'anonymous', 2]);
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+        <script type="text/javascript">
+            /**
+        * Function that tracks a click on an outbound link in Google Analytics.
+        * This function takes a valid URL string as an argument, and uses that URL string
+        * as the event label.
+        * See: https://support.google.com/analytics/answer/1136920?hl=en
+        */
+            var trackOutboundLink = function(url) {
+                ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+                        function () {
+                            document.location = url;
+                        }
+                });
+            }
+        </script>
+
+
+    
+
+    <!-- Cheers, RD00155D485BC7p. -->
+</body>
+</html>
